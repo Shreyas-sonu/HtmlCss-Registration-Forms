@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form1</title>
+    <link rel="stylesheet" href="./a2.css">
+</head>
+<body class="bod">
+    <form action="#">
+        <fieldset class="fld">
+            <legend><b>Registration Details</b></legend>
+            <table class="ab" cellspacing="25px">
+                <tr>
+                <td id="tab"> <label for="a1">University:</label></td>
+                <td><input type="text" name="" value="" id="a1" size="35" required></td>
+                </tr>
+                <tr>
+                <td id="tab"> <label for="a1">Institute:</label></td>
+                <td><input type="text" name="" value="" id="a1" size="35"></td>
+                </tr>
+                <tr>
+                <td id="tab"> <label for="a2">Branch:</label></td>
+                <td><select list="a2" name="" value="" id="a2" placeholder="--select--">
+                <option>--select--</option>    
+                <option>Mandya</option>
+                <option>Maddur</option>
+                <option>Melavalli</option>
+                <option>Melkote</option>
+                <option>Mysore</option>
+                </select>
+                </tr>
+                <tr>
+                <td id="tab"> <label for="a1">Degree:</label></td>
+                <td><select list="" name="" value="" id="" placeholder="--select--">
+                    <option>--select--</option>    
+                    <option>Mechanical</option>
+                    <option>Electrical</option>
+                    <option>Electronics</option>
+                    <option>Civil</option>
+                    <option>Automobile</option>
+                    </select>&nbsp;&nbsp;
+                    <input type="radio" name="status" value="">Pursuing &nbsp;
+                    <input type="radio" name="status" value="">Completed 
+                </td>               
+                 </tr>
+                <td id="tab"> <label for="a5">Average CPI:</label></td>
+                <td><input type="number" name="" size="1" id="a5" maxlength="3">&nbsp;Upto&nbsp;
+                    <input type="number" name="" size="2" id="a5" maxlength="3">&nbsp;TH Semester&nbsp;
+                </td>
+                </tr>
+                <td id="tab"> <label for="a1">Experience:</label></td>
+                <td><input type="number" name="" size="10" id="a6" maxlength="3">&nbsp;Years&nbsp;</td>
+                </tr>
+                <td class="las" id="tab"> <label for="a1">Your website or blog:</label></td>
+                <td><input type="text" name="" value="http://" id="a1" size="35"></td>
+                </tr>
+                <tr>
+                    <td id="tab" class="las">
+                        <label for="pass">Password:</label>
+                    </td> 
+                     <td>
+                        <input type="password" name="pass" value="" pattern="(?=.*\[!@#$%^&*-=])(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><button>Submit</button></td>
+                </tr>
+            </table>
+        </fieldset>
+
+    </form>
+</body>
+</html>
+<!-- (?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@#$%^&*_+-=!~`]) -->
